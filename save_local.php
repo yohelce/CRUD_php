@@ -11,7 +11,7 @@ if (isset($_POST['save_local'])){
         die("Query failed");
     }
 
-    $_SESSION['message'] =  'Local Saved successfully';
+    $_SESSION['message'] =  'Local grabado satisfactoriamente';
     $_SESSION['message_type'] = 'success';
 
     header("Location: index.php");
